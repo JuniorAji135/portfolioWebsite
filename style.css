@@ -1,4 +1,126 @@
-h1 {
-    color: blue;
-    font-size: 2em;
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin:5%;
+    background-color:aliceblue
+}
+
+header {
+    color: red;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5em;
+    border-style: solid;
+    border-color: red;
+    border-radius: 2em;
+    padding: 2em 2em;
+}
+
+nav a {
+    color: red;
+}
+
+
+nav ul {
+    list-style: none;   /* Removes bullet points */;
+    display: flex;
+    gap: 5em;
+}
+
+nav li {
+    display: block;      /* Default block for flex children */
+}
+
+section h1 {
+    color: red;
+    font-size: 1.5em;
+    ;
+}
+
+article {
+    font-size: 1em;
+    border-style: solid;
+    border-color: red;
+    padding: 2em 2em;
+    border-radius: 2em;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3em;
+    margin-left: 0;
+}
+
+h2 {
+    color: red;
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 5em;
+}
+
+section ul {
+    border-style: solid;
+    border-color: red;
+    padding: 2em 2em;
+    list-style: none;
+    display: flex;
+    gap: 10em;
+    border-radius: 2em;
+}
+
+h3 {
+    color: red;
+    font-size: 1.1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 25%;
+    margin-bottom: 6em;;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 1em;
+}
+
+footer {
+    margin-bottom: 2em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 6em;
+    border-style: solid;
+    border-color: red;
+    border-radius: 2em;
+    padding: 2em 2em;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode header,
+.dark-mode nav a,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode article,
+.dark-mode footer {
+    color: #fff;
+    background-color: #333;
+    border-color: #fff;
 }
